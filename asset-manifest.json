@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7255b02f.css",
+    "main.js": "/static/js/main.a37d18b9.js",
+    "static/media/Ibrahim_Aliyev.pdf": "/static/media/Ibrahim_Aliyev.5455af37715e245b0ff4.pdf",
+    "static/media/imga-removebg-preview.png": "/static/media/imga-removebg-preview.0f7e63973d68f3834723.png",
+    "static/media/icherisheher.jpg": "/static/media/icherisheher.d34faceec77d94f32feb.jpg",
+    "static/media/creative.jpg": "/static/media/creative.c3c1506ff8f17d6575e6.jpg",
+    "index.html": "/index.html",
+    "main.7255b02f.css.map": "/static/css/main.7255b02f.css.map",
+    "main.a37d18b9.js.map": "/static/js/main.a37d18b9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7255b02f.css",
+    "static/js/main.a37d18b9.js"
+  ]
+}
