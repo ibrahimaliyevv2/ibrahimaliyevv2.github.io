@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.7255b02f.css",
-    "main.js": "/static/js/main.30d87aa6.js",
+    "main.js": "/static/js/main.4e2ef27b.js",
     "static/media/cola.png": "/static/media/cola.6752085e940bcd2d448d.png",
     "static/media/maxim.png": "/static/media/maxim.fee2b61d46fc83ccd734.png",
     "static/media/cofee_back.png": "/static/media/cofee_back.9ae53e1842cd4a7f11d4.png",
@@ -11,18 +11,18 @@
     "static/media/api.png": "/static/media/api.a9cc252cfb8ee2e593ec.png",
     "static/media/pustok_back.png": "/static/media/pustok_back.2959505f9eb2688c30a7.png",
     "static/media/social_front.png": "/static/media/social_front.c5fb227b2179eeaacfa9.png",
-    "static/media/Ibrahim_Aliyev.pdf": "/static/media/Ibrahim_Aliyev.5455af37715e245b0ff4.pdf",
     "static/media/imga-removebg-preview.png": "/static/media/imga-removebg-preview.0f7e63973d68f3834723.png",
     "static/media/icherisheher.jpg": "/static/media/icherisheher.d34faceec77d94f32feb.jpg",
+    "static/media/Ibrahim_Aliyev.pdf": "/static/media/Ibrahim_Aliyev.65d1e98668a5f3576edb.pdf",
     "static/media/quiz.png": "/static/media/quiz.b5c5eb13211c10e0c56c.png",
     "static/media/samples.png": "/static/media/samples.1a9b36bc49a51313b33e.png",
     "static/media/tictactoe.png": "/static/media/tictactoe.a4eac11e9362c71b6289.png",
     "index.html": "/index.html",
     "main.7255b02f.css.map": "/static/css/main.7255b02f.css.map",
-    "main.30d87aa6.js.map": "/static/js/main.30d87aa6.js.map"
+    "main.4e2ef27b.js.map": "/static/js/main.4e2ef27b.js.map"
   },
   "entrypoints": [
     "static/css/main.7255b02f.css",
-    "static/js/main.30d87aa6.js"
+    "static/js/main.4e2ef27b.js"
   ]
 }
