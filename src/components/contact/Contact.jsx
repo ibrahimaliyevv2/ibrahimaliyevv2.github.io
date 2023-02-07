@@ -32,20 +32,20 @@ const Contact = () => {
           <article className="contact__option">
             <MdOutlineEmail className='contact__option-icon' />
             <h4>Email</h4>
-            <h5>mail@gmail.com</h5>
-            <a href="mailto:mail@gmail.com" target="_blank" rel="noopener noreferrer">Send an email</a>
+            <h5>ibrahimaliyevv2@gmail.com</h5>
+            <a href="mailto:ibrahimaliyevv2@gmail.com" target="_blank" rel="noopener noreferrer">Send an email</a>
           </article>
           <article className="contact__option">
             <RiMessengerLine className='contact__option-icon' />
-            <h4>Messenegr</h4>
-            <h5>mail@gmail.com</h5>
-            <a href="https://m.me/messenger" target="_blank" rel="noopener noreferrer">Send a message</a>
+            <h4>Messenger</h4>
+            <h5>Ibrahim Aliyev</h5>
+            <a href="https://m.me/ibrahimaliyevv" target="_blank" rel="noopener noreferrer">Send a message</a>
           </article>
           <article className="contact__option">
             <BsWhatsapp className='contact__option-icon' />
             <h4>WhatsApp</h4>
-            <h5>+1234567890</h5>
-            <a href="https://api.whatsapp.com/send?phone=+1234" target="_blank" rel="noopener noreferrer">Send a message</a>
+            <h5>+994 55 792 58 03</h5>
+            <a href="https://api.whatsapp.com/send/?phone=%2B994557925803" target="_blank" rel="noopener noreferrer">Send a message</a>
           </article>
         </div>
         <form ref={form} onSubmit={sendEmail}>
