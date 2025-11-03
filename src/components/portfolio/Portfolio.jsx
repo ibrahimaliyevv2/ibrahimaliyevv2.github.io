@@ -1,7 +1,7 @@
 import React from "react";
 import "./portfolio.css";
 import QUIZ from "../../assets/quiz.png";
-import FIORELLO from "../../assets/fiorello.png";
+import GIPHY from "../../assets/giphy.gif";
 
 const data = [
   {
@@ -18,7 +18,7 @@ const data = [
   },
   {
     id: 2,
-    image: FIORELLO,
+    image: GIPHY,
     label: "Featured Project",
     title: "Fiorello template (used SCSS)",
     description:
@@ -62,17 +62,6 @@ const Portfolio = () => {
                   <h3 className="portfolio__item-title">{title}</h3>
                   <div className="portfolio__item-description">
                     <p>{description}</p>
-                    <div className="portfolio__decorative-icons">
-                      <span className="icon icon--star" aria-hidden="true">
-                        ✦
-                      </span>
-                      <span className="icon icon--flower" aria-hidden="true">
-                        ❋
-                      </span>
-                      <span className="icon icon--sparkle" aria-hidden="true">
-                        ✧
-                      </span>
-                    </div>
                   </div>
                   <div className="portfolio__item-cta">
                     <a

@@ -35,7 +35,7 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
-  background: var(--color-bg);
+  background: radial-gradient(circle at 30% 50%, #1b1c3a, #0e0f26);
   color: var(--color-white);
   line-height: 1.7;
 }
@@ -86,25 +86,66 @@ a:hover {
 }
 
 .btn {
-  width: max-content;
-  display: inline-block;
-  color: var(--color-primary);
-  padding: 0.75rem 1.2rem;
-  border-radius: 0.4rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 500;
   cursor: pointer;
-  border: 1px solid var(--color-primary);
-  transition: var(--transition);
+  transition: 0.3s ease;
+  border: 1px solid #4cc9f0;
+  color: #4cc9f0;
+  background: transparent;
+  display: inline-block;
 }
 
 .btn:hover {
-  background: var(--color-white);
-  color: var(--color-bg);
-  border-color: transparent;
+  background: #4cc9f0;
+  color: #0e0f26;
+  transform: scale(1.05);
 }
 
 .btn-primary {
-  background: var(--color-primary);
-  color: var(--color-bg);
+  background: linear-gradient(90deg, #4cc9f0, #4895ef);
+  color: #0e0f26;
+  border: none;
+}
+
+.btn-primary:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #4895ef60;
+}
+
+.cta {
+  margin-top: 2rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.cta a {
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+.cta a:first-child {
+  border: 1px solid #4cc9f0;
+  color: #4cc9f0;
+}
+
+.cta a:first-child:hover {
+  background: #4cc9f0;
+  color: #0e0f26;
+  transform: scale(1.05);
+}
+
+.cta a:last-child {
+  background: linear-gradient(90deg, #4cc9f0, #4895ef);
+  color: #0e0f26;
+}
+
+.cta a:last-child:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #4895ef60;
 }
 
 img {
