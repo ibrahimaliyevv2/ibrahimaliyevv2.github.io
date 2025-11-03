@@ -1,13 +1,10 @@
-/* ----------------------------------------------------------------- */
-/* 1. CSS Variables and Base Styling */
-/* ----------------------------------------------------------------- */
 :root {
-  --color-primary: #8b5cf6; /* Purple-500 */
-  --color-primary-light: #a78bfa; /* Purple-400 */
-  --color-primary-dark: #5b21b6; /* Purple-700 */
+  --color-primary: #8b5cf6;
+  --color-primary-light: #a78bfa;
+  --color-primary-dark: #5b21b6;
   --color-bg-dark: #000000;
-  --color-bg-card: #0f172a; /* Slate-900 (for deep contrast) */
-  --color-text-light: #d1d5db; /* Gray-300 */
+  --color-bg-card: #0f172a;
+  --color-text-light: #d1d5db;
   --color-text-white: #ffffff;
   --color-shadow-purple: rgba(139, 92, 246, 0.5);
   --overlap-margin: 5rem;
@@ -18,21 +15,10 @@
   padding: 4rem 0;
 }
 
-#portfolio h2,
-#portfolio h5 {
-  text-align: center;
-  margin-bottom: 3rem;
-  color: var(--color-text-white);
-}
-
-/* Base body background for the overall dark theme (assuming the body/main container is also dark) */
 body {
   font-family: "Inter", sans-serif;
 }
 
-/* ----------------------------------------------------------------- */
-/* 2. Buttons */
-/* ----------------------------------------------------------------- */
 .btn {
   display: inline-block;
   width: fit-content;
@@ -62,10 +48,6 @@ body {
   border-color: var(--color-primary-light);
 }
 
-/* ----------------------------------------------------------------- */
-/* 3. Portfolio Item Layout and Overlap */
-/* ----------------------------------------------------------------- */
-
 .container {
   width: 90%;
   margin: 0 auto;
@@ -79,7 +61,6 @@ body {
   margin-bottom: 8rem; /* Space between projects */
 }
 
-/* Desktop Layout (Min-width 1024px) */
 @media screen and (min-width: 1024px) {
   .portfolio__item {
     flex-direction: row; /* Horizontal layout */
@@ -87,7 +68,6 @@ body {
     min-height: 500px; /* Ensure enough height for visual balance */
   }
 
-  /* Standard Layout: Content (left, overlapping) -> Image (right) */
   .portfolio__item-content {
     order: 1; /* First element in row */
     flex-basis: 55%;
@@ -104,7 +84,6 @@ body {
     z-index: 5;
   }
 
-  /* Reversed Layout: Image (left) -> Content (right, overlapping) */
   .portfolio__item--reverse {
     flex-direction: row-reverse;
   }
@@ -117,10 +96,6 @@ body {
     text-align: right;
   }
 }
-
-/* ----------------------------------------------------------------- */
-/* 4. Content Block Styling (The Overlapping Text Box) */
-/* ----------------------------------------------------------------- */
 
 .portfolio__item-content {
   background: rgba(
