@@ -1,70 +1,107 @@
-# Getting Started with Create React App
+# Ibrahim Aliyev - React Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive portfolio website built with React showcasing my skills, experience, and projects as a Frontend Developer.
 
-## Available Scripts
+## 🚀 Live Demo
 
-In the project directory, you can run:
+[View Portfolio](https://ibrahimaliyevv2.github.io)
 
-### `npm start`
+## 📋 Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Responsive Design**: Fully responsive layout that works on all devices
+- **Modern UI**: Clean, professional design with smooth animations
+- **Interactive Navigation**: Mobile-friendly sidebar navigation with section names
+- **Skills Showcase**: Organized display of technical skills and tools
+- **Experience Timeline**: Detailed work experience with project highlights
+- **Portfolio Gallery**: Showcase of completed projects
+- **Article Section**: Latest Medium articles with carousel display
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Technologies Used
 
-### `npm test`
+### Frontend Framework
+- **React 18** - Modern React with hooks and functional components
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Styling & UI
+- **Pure CSS3** - Custom CSS with CSS Grid and Flexbox
+- **React Icons** - Icon library for consistent iconography
 
-### `npm run build`
+### Libraries & Tools
+- **React Multi Carousel** - Smooth carousel for articles and portfolio
+- **React Router DOM** - Client-side routing
+- **GH Pages** - Deployment to GitHub Pages
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Development Tools
+- **Create React App** - Build setup and development server
+- **ESLint** - Code linting
+- **npm** - Package management
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📁 Project Structure
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+src/
+├── components/
+│   ├── header/          # Hero section with CTA
+│   ├── nav/            # Navigation component
+│   ├── about/          # About section
+│   ├── experience/     # Work experience
+│   ├── skills/         # Technical skills
+│   ├── portfolio/      # Project showcase
+│   ├── articles/       # Medium articles
+│   ├── contact/        # Contact form
+│   └── footer/         # Footer component
+├── assets/             # Images and media files
+├── App.jsx            # Main app component
+├── index.css          # Global styles
+└── index.js           # App entry point
+```
 
-### `npm run eject`
+## 🚀 Getting Started
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Prerequisites
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Node.js (v14 or higher)
+- npm or yarn
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Installation
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Clone the repository:
+```bash
+git clone https://github.com/ibrahimaliyevv2/ibrahimaliyevv2.github.io.git
+cd ibrahimaliyevv2.github.io
+```
 
-## Learn More
+2. Install dependencies:
+```bash
+npm install
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+3. Start the development server:
+```bash
+npm start
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+4. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-### Code Splitting
+### Build for Production
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+npm run build
+```
 
-### Analyzing the Bundle Size
+### Deploy to GitHub Pages
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+npm run deploy
+```
 
-### Making a Progressive Web App
+## 📱 Mobile Features
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- **Responsive Sidebar Navigation**: Hamburger menu that slides in from the left
+- **Touch-Friendly**: Optimized for mobile interactions
+- **Adaptive Layout**: Content adjusts seamlessly across screen sizes
 
-### Advanced Configuration
+## 🎨 Design Highlights
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **Glassmorphism Effects**: Modern backdrop blur and transparency
+- **Smooth Transitions**: CSS transitions for interactive elements
+- **Typography**: Clean, readable font hierarchy

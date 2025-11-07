@@ -2,7 +2,7 @@ import React from "react";
 import "./header.css";
 import CTA from "./CTA";
 import ME from "../../assets/icherisheher.jpg";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaMedium } from "react-icons/fa";
 
 const Header = () => {
   return (
@@ -32,6 +32,13 @@ const Header = () => {
               rel="noreferrer"
             >
               <FaLinkedin />
+            </a>
+            <a
+              href="https://medium.com/@ibrahimaliyevv"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaMedium />
             </a>
           </div>
         </div>
