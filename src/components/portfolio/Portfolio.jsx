@@ -7,24 +7,26 @@ const data = [
   {
     id: 1,
     image: SOCIAL_FLOW,
-    label: "Featured Project",
-    title: "Quiz using React JS",
+    label: "Project",
+    title: "SocialFlow - Social Media Application",
+    imageName: "SocialFlow application",
     description:
-      "An interactive quiz application built with React JS, featuring multiple choice questions and score tracking. This project demonstrates state management, component lifecycle, and user interaction patterns in modern web development.",
-    github: "https://github.com/ibrahimaliyevv2/quiz",
-    demo: "https://ibrahimaliyevv2.github.io/quiz/",
+      "A dynamic social media platform built with Next.js, empowering users to share posts, engage with content, and follow users. Features secure authentication via Clerk, image uploads with UploadThing, and an intuitive responsive interface supporting dark and light modes. Includes user profiles, likes, comments, follows, and live notifications for seamless interaction. Powered by Prisma and PostgreSQL for efficient data handling, and styled with Tailwind CSS and Shadcn UI for a modern, accessible experience.",
+    github: "https://github.com/ibrahimaliyevv2/social-flow",
+    demo: "https://social-flow-olive-ten.vercel.app/",
     btn1: "GitHub",
     btn2: "Live Demo",
   },
   {
     id: 2,
     image: CHAT_FLOW,
-    label: "Featured Project",
-    title: "Fiorello template (used SCSS)",
+    label: "Project",
+    title: "ChatFlow - Real-time Chat Application",
+    imageName: "ChatFlow application",
     description:
-      "A responsive website template created using SCSS for styling, showcasing modern design principles. Features advanced CSS techniques including mixins, variables, and nested selectors for maintainable and scalable stylesheets.",
-    github: "https://github.com/ibrahimaliyevv2/fiorello_frontend",
-    demo: "https://ibrahimaliyevv2.github.io/fiorello_frontend/",
+      "A full-featured real-time chat platform built with the MERN stack, enabling instant messaging through Socket.io. Designed with a responsive interface and smooth user experience, it supports image sharing, live online status, secure authentication, and persistent message history. Utilizes modern tools like React, Tailwind CSS, and Zustand for a clean, scalable front-end and Node.js, Express, and MongoDB for a robust backend architecture.",
+    github: "https://github.com/ibrahimaliyevv2/chat-flow",
+    demo: "https://chat-flow-445l.onrender.com/",
     btn1: "GitHub",
     btn2: "Live Demo",
   },
@@ -43,6 +45,7 @@ const Portfolio = () => {
             image,
             label,
             title,
+            imageName,
             description,
             github,
             demo,
@@ -86,7 +89,7 @@ const Portfolio = () => {
                   <div className="portfolio__image-glow"></div>
                   <img src={image} alt={`Screenshot of ${title} project`} />
                   <div className="portfolio__image-caption">
-                    Work ex. {title.toLowerCase().replace(/\s+/g, "")} in (46px)
+                    Work example ({imageName})
                   </div>
                 </div>
               </article>
