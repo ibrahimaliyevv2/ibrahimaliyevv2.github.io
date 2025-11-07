@@ -102,7 +102,7 @@ const Articles = () => {
           itemClass="carousel-item-padding-40-px"
           swipeable={true}
           draggable={true}
-          showDots={true}
+          showDots={false}
           arrows={true}
         >
           {articlesData.map((article) => (

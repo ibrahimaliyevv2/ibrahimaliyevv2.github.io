@@ -1,7 +1,34 @@
-import React from "react";
 import "./skills.css";
-import { FaReact, FaNodeJs, FaGitAlt, FaCss3Alt, FaSass, FaHtml5 } from "react-icons/fa";
-import { SiNextdotjs, SiJavascript, SiTypescript, SiTailwindcss, SiMui, SiChakraui, SiAntdesign, SiStyledcomponents, SiReactquery, SiRedux, SiAuth0, SiExpress, SiVisualstudiocode, SiGooglechrome, SiPrettier, SiEslint, SiPostman, SiVite, SiNpm } from "react-icons/si";
+import {
+  FaReact,
+  FaNodeJs,
+  FaGitAlt,
+  FaCss3Alt,
+  FaSass,
+  FaHtml5,
+} from "react-icons/fa";
+import {
+  SiNextdotjs,
+  SiJavascript,
+  SiTypescript,
+  SiTailwindcss,
+  SiMui,
+  SiChakraui,
+  SiAntdesign,
+  SiStyledcomponents,
+  SiReactquery,
+  SiRedux,
+  SiAuth0,
+  SiExpress,
+  SiGooglechrome,
+  SiPrettier,
+  SiEslint,
+  SiPostman,
+  SiVite,
+  SiNpm,
+  SiShadcnui,
+} from "react-icons/si";
+import { VscVscode } from "react-icons/vsc";
 
 const skillsData = [
   {
@@ -16,8 +43,8 @@ const skillsData = [
       { name: "Redux Toolkit", icon: <SiRedux /> },
       { name: "Auth.js", icon: <SiAuth0 /> },
       { name: "Node.js", icon: <FaNodeJs /> },
-      { name: "Express", icon: <SiExpress /> }
-    ]
+      { name: "Express", icon: <SiExpress /> },
+    ],
   },
   {
     category: "Styling",
@@ -26,26 +53,26 @@ const skillsData = [
       { name: "SASS/SCSS", icon: <FaSass /> },
       { name: "Tailwind CSS", icon: <SiTailwindcss /> },
       { name: "Material UI", icon: <SiMui /> },
-      { name: "Shadcn-ui", icon: <SiMui /> },
+      { name: "Shadcn-ui", icon: <SiShadcnui /> },
       { name: "Chakra UI", icon: <SiChakraui /> },
       { name: "Ant Design", icon: <SiAntdesign /> },
-      { name: "Styled Components", icon: <SiStyledcomponents /> }
-    ]
+      { name: "Styled Components", icon: <SiStyledcomponents /> },
+    ],
   },
   {
     category: "Developer Tools",
     skills: [
       { name: "Git", icon: <FaGitAlt /> },
-      { name: "VS Code", icon: <SiVisualstudiocode /> },
+      { name: "VS Code", icon: <VscVscode /> },
       { name: "React Developer Tools", icon: <FaReact /> },
       { name: "Chrome DevTools", icon: <SiGooglechrome /> },
       { name: "Prettier", icon: <SiPrettier /> },
       { name: "ESLint", icon: <SiEslint /> },
       { name: "Postman", icon: <SiPostman /> },
       { name: "Vite", icon: <SiVite /> },
-      { name: "npm", icon: <SiNpm /> }
-    ]
-  }
+      { name: "npm", icon: <SiNpm /> },
+    ],
+  },
 ];
 
 const Skills = () => {

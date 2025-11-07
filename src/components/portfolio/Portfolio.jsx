@@ -1,12 +1,12 @@
 import React from "react";
 import "./portfolio.css";
-import QUIZ from "../../assets/quiz.png";
-import GIPHY from "../../assets/giphy.gif";
+import SOCIAL_FLOW from "../../assets/socialflow.gif";
+import CHAT_FLOW from "../../assets/chatflow.gif";
 
 const data = [
   {
     id: 1,
-    image: QUIZ,
+    image: SOCIAL_FLOW,
     label: "Featured Project",
     title: "Quiz using React JS",
     description:
@@ -18,7 +18,7 @@ const data = [
   },
   {
     id: 2,
-    image: GIPHY,
+    image: CHAT_FLOW,
     label: "Featured Project",
     title: "Fiorello template (used SCSS)",
     description:
