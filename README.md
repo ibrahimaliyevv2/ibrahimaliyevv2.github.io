@@ -4,7 +4,7 @@ A modern, responsive portfolio website built with React showcasing my skills, ex
 
 ## 🚀 Live Demo
 
-[View Portfolio](https://ibrahimaliyevv2.github.io)
+[View Portfolio](https://ibrahimaliyevv2.vercel.app)
 
 ## 📋 Features
 
@@ -66,7 +66,7 @@ src/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/ibrahimaliyevv2/ibrahimaliyevv2.github.io.git
+git clone https://github.com/ibrahimaliyevv2/portfolio.git
 cd ibrahimaliyevv2.github.io
 ```
 
@@ -86,12 +86,6 @@ npm start
 
 ```bash
 npm run build
-```
-
-### Deploy to GitHub Pages
-
-```bash
-npm run deploy
 ```
 
 ## 📱 Mobile Features
