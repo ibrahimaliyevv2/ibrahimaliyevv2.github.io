@@ -2,6 +2,7 @@ import React from "react";
 import "./portfolio.css";
 import SOCIAL_FLOW from "../../assets/socialflow.gif";
 import CHAT_FLOW from "../../assets/chatflow.gif";
+import CYRILLIC_TO_LATIN from "../../assets/cyrillic-to-latin.gif";
 
 const data = [
   {
@@ -27,6 +28,19 @@ const data = [
       "A full-featured real-time chat platform built with the MERN stack, enabling instant messaging through Socket.io. Designed with a responsive interface and smooth user experience, it supports image sharing, live online status, secure authentication, and persistent message history. Utilizes modern tools like React, Tailwind CSS, and Zustand for a clean, scalable front-end and Node.js, Express, and MongoDB for a robust backend architecture.",
     github: "https://github.com/ibrahimaliyevv2/chat-flow",
     demo: "https://chat-flow-445l.onrender.com/",
+    btn1: "GitHub",
+    btn2: "Live Demo",
+  },
+  {
+    id: 3,
+    image: CYRILLIC_TO_LATIN,
+    label: "Project",
+    title: "Cyrillic to Latin converter",
+    imageName: "Cyrillic to Latin application",
+    description:
+      "An application for converting Azerbaijani text from Cyrillic script to Latin script. Built with Next.js, TypeScript, and Tailwind CSS.",
+    github: "https://github.com/ibrahimaliyevv2/cyrillic-to-latin",
+    demo: "https://cyrillic-to-latin.vercel.app",
     btn1: "GitHub",
     btn2: "Live Demo",
   },
